@@ -1,27 +1,43 @@
 #Vetores
 #indice de R inicia em 1.
-#R faz busca por indice e por objeto.
-	#Ex: v <- c("Olá", "Oi", "Ae") v[1] ou v["Olá"], resultado "Olá".
 
 #Criando vetores
+	vetor <- c(5, 4, 3, 2, 1)
+	vetorUmAoDez <- c(1:10) #Cria um vetor com nÃºmeros de 1 Ã  10. 
 
-vetor <- c(5, 4, 3, 2, 1)
-vetor #retorna o vetor inteiro.
-vetor[1] 
-
-vetorUmAoDez <- c(1:10) #Cria um vetor com números de 1 à 10.
-vetorUmAoDez 
-
-variavel <- 4
-variavel[1] #todas as variáveis em R são vetores.
-
-#Ex:
-is.vector(vetor) #True
-is.vector(variavel) #True
-is.vector(4[1]) #True
+#Verificando se o tipo Ã© vector:
+	is.vector(vetor)    #True
+	is.vector(variavel) #True
+	is.vector(4[1])     #True
 
 #Nomeando Vetores
-numerosDaSemana <- c(1, 2, 3, 4, 5, 6, 7)
-nomesDaSemana <- c("Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo")
-names(numerosDaSemana) <- nomesDaSemana 
-numerosDaSemana
+	numerosDaSemana <- c(1, 2, 3, 4, 5, 6, 7)
+	nomesDaSemana <- c("Segunda", "TerÃ§a", "Quarta", "Quinta", "Sexta", "SÃ¡bado", "Domingo")
+
+	names(numerosDaSemana) <- nomesDaSemana 
+	numerosDaSemana 
+
+#Selecionando dados nos vetores
+	
+	#tomando o exemplo de vetor acima.
+	vetor #retorna o vetor inteiro.
+	vetor[1] #retorna o primeiro elemento de vetor, neste caso 5.
+
+	indice <- 3
+	vetor[indice] #Pega o indice 3 do vetor, neste caso o nÃºmero 3.
+
+	variavel <- 4
+	variavel[1] #todas as variÃ¡veis em R sÃ£o vetores.
+	
+	#R faz busca por indice e por objeto.
+		#Ex: v <- c("OlÃ¡", "Oi", "Ae") v[1] ou v["OlÃ¡"], resultado "OlÃ¡".
+
+	numerosDaSemana[2] #SaÃ­da: TerÃ§a 
+    				 #  		2 
+	#trabalhando com auxilio de vetores lÃ³gicos
+	numeros <- c(1:10) 
+	numeros[c(TRUE, FALSE)] #Pegar os Ã­mpares.
+	numeros[c(FALSE, TRUE)] #Pegando os pares.
+	numeros[c(TRUE, FALSE, TRUE)] #Pegando todos, menos (2, 5, 8).
+
+
