@@ -1,13 +1,15 @@
-#workspace(B·sico).
-#Todos os exemplos abaixo dever„o ser utilizados no workspace do R.
-#Todos exemplos abaixo s„o funÁıes prontas do R.
+#workspace(B√°sico).
+#Todos os exemplos abaixo dever√£o ser utilizados no workspace do R.
+#Todos exemplos abaixo s√£o fun√ß√µes prontas do R.
 
-#1. ls() È uma funÁ„o que ir· mostrar as vari·veis que foram declaradas.
-#2. rm(NOME DA VARI¡VEL) È uma funÁ„o que ir· remover a vari·vel que foi passada como par‚metro, ela tambÈm pode remover todas as vari·veis ou objetos que est„o em uma lista.
-	#Ex: rm([NOME DA VARI¡VEL 1, NOME DA VARI¡VEL 2]) ou rm(LISTA DE VARI¡VEIS) ou rm(list = ls()).
-#3. class(OBJETO) È uma funÁ„o que retorna o tipo daquele objeto.
-#4. is.TIPO_DE_DADO(OBJETO) essa funÁ„o retorna um valor lÛgico(True ou False).
+#1. ls() √© uma fun√ß√£o que ir√° mostrar as vari√°veis que foram declaradas.
+#2. rm(NOME DA VARI√ÅVEL) √© uma fun√ß√£o que ir√° remover a vari√°vel que foi passada como par√¢metro, ela tamb√©m pode remover todas as vari√°veis ou objetos que est√£o em uma lista.
+	#Ex: rm([NOME DA VARI√ÅVEL 1, NOME DA VARI√ÅVEL 2]) ou rm(LISTA DE VARI√ÅVEIS) ou rm(list = ls()).
+#3. class(OBJETO) √© uma fun√ß√£o que retorna o tipo daquele objeto.
+#4. is.TIPO_DE_DADO(OBJETO) essa fun√ß√£o retorna um valor l√≥gico(True ou False).
 	#Ex: is.integer(4) ou var <- 4 is.numeric(var) ou is.character("Oi").
-#5. as.TIPO_DE_DADO(OBJETO) È uma funÁ„o que converte tipos de dados desde que seja possÌvel.
-	#Ex: as.integer("4") ou as.integer(4.3) ou as.integer(4), todos os resultados ser„o 4.
-	#Ex: as.logical(1) ou as.logical("True") ou as.logical("T"), resultado È True; as.logical(0), resultado È False.
+#5. as.TIPO_DE_DADO(OBJETO) √© uma fun√ß√£o que converte tipos de dados desde que seja poss√≠vel.
+	#Ex: as.integer("4") ou as.integer(4.3) ou as.integer(4), todos os resultados ser√£o 4.
+	#Ex: as.logical(1) ou as.logical("True") ou as.logical("T"), resultado √© True; as.logical(0), resultado √© False.
+#6. getwd() fornece o diretorio no qual voc√™ est√° trabalhando.
+#7. setwd("Novo caminho do diret√≥rio") muda a pasta ao qual vai estar o seu projeto R. (Barras devem ser estas: /)
