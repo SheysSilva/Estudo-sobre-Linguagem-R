@@ -2,7 +2,9 @@
 #indice de R inicia em 1.
 
 #Criando vetores
-	vetor <- c(5, 4, 3, 2, 1)
+	vetor <- 1:10
+	vetorArray <- array(1:6)
+	vetorC <- c(5, 4, 3, 2, 1)
 	vetorUmAoDez <- c(1:10) #Cria um vetor com números de 1 à 10. 
 
 #Verificando se o tipo é vector:
