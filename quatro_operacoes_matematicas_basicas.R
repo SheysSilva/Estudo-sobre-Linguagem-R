@@ -1,21 +1,32 @@
-#Coment·rio
+#Coment√°rio
 #Tem que selecionar a linha, ou as linhas, para poder executar
-#Quatro operaÁıes b·sicas 
+#Quatro opera√ß√µes b√°sicas 
 
-#AdiÁ„o
+#Adi√ß√£o
 4 + 5
 
-#SubtraÁ„o
+#Subtra√ß√£o
 4 - 5
 
-#MultiplicaÁ„o
+#Multiplica√ß√£o
 4 * 5
 
-#ExponenciaÁ„o
-4 ^ 5
+#Exponencia√ß√£o
+4 ^ 5 
+#ou
+4**5
 
-#Resto da divis„o
+#Raiz quadrada
+sqrt(numero)
+
+#Raiz
+8^(1/3) #raiz cubica
+
+#Resto da divis√£o
 4 %% 5
+
+#Cociente da divis√£o
+9%/%2
 
 #Ordem de parenteses
 (4 * (5 + 1))
